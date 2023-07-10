@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<network-scanner-license>
+  <license>mBYteKnlNi0KU/DMHkgzjafhYsz8+HdcdM8AkGgiFKjib+fcjsyPKMoJGzjcbrcEx25BkxKIcdgH5ZMbEidCQq8zsH4HlAsOP1GSlA0vYnbwpq9lQDja09dAsI0de97FBRTK8QhNNrRbnUKMvT0QRzvOM3AWIWUXwiakaDctWNg=</license>
+  <upgrade>0</upgrade>
+  <language>Russian</language>
+  <nmap>H:\сир\64_bit_new</nmap>
+  <autoupdate>
+    <prompt>false</prompt>
+    <enabled>false</enabled>
+    <lastcheck>0</lastcheck>
+  </autoupdate>
+</network-scanner-license>
