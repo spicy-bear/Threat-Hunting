@@ -1,0 +1,45 @@
+Синтаксис: hydra [[[-l LOGIN|-L FILE] [-p PASS|-P FILE]]|[-C FILE]] [-e nsr] [-o FILE] [-t TASKS] [-M FILE [-T TASKS]] [-w TIME] [-W TIME] [-f] [-s PORT] [-x MIN:MAX:CHARSET] [-ISOuvVd46] [service://server[:PORT][/OPT]]
+
+Опции:
+  -R восстановить предыдущую отмененную / разбитую сессию
+  -I игнорирую существующий файл восстановления (не ждите 10 секунд)
+  -S выполнить SSL-соединение
+  -s PORT, если служба находится на другом порту по умолчанию, определите его здесь
+  -l LOGIN или -L FILE логин с именем LOGIN или загрузить несколько логинов из FILE
+  -p PASS или -P FILE попробовать пароль PASS или загрузить несколько паролей из FILE
+  -x MIN:MAX:CHARSET пароль bruteforce поколения, введите "-x -h", чтобы получить помощь
+  -y отключить использование символов в bruteforce, см. выше
+  -e nsr "n" использовать пустой пароль, "s" имя пользователя как пароль и/или "r" менять логин и пароль местами
+  -u обойти сначала пользователей, а не пароли (эффективные! подразумеваемые с -x)
+  -C FILE двоеточие разделяет формат «login: pass» вместо опций -L / -P
+  -M FILE список серверов для атаки, по одной записи в строке, ':' для указания порта
+  -o FILE записывать пары входа / пароля в FILE вместо вывода на экран
+  -b FORMAT определяет формат для -o FILE: текст (по умолчанию), json, jsonv1
+  -f / -F выйти, когда найдена пара входа / пароля (-M: -f на хост, -F глобальный)
+  -t TASKS запускать TASKS количество подключений параллельно по каждой цели (по умолчанию: 16)
+  -T TASKS run TASKS подключается параллельно в целом (для -M, по умолчанию: 64)
+  -w / -W TIME время ожидания ответов (32) / между соединениями на поток (0)
+  -4 / -6 используют адреса IPv4 (по умолчанию) / IPv6 (всегда помещаются в [] также в -M)
+  -v / -V / -d подробный режим / показать логин + проход для каждого режима попытки / отладки
+  -O использовать старые SSL v2 и v3
+  -q не печатать сообщения о ошибках подключения
+  -U Сведения об использовании сервисного модуля
+  server цель: DNS, IP или 192.168.0.0/24 (этот параметр ИЛИ -M)
+  service использовать службу для взлома (см. ниже для поддерживаемых протоколов)
+  OPT некоторые служебные модули поддерживают дополнительные параметры (-U для помощи модуля)
+
+Поддерживаемые службы: adam6500 asterisk cisco cisco-enable cvs ftp ftps http[s]-{head|get|post} http[s]-{get|post}-form http-proxy http-proxy-urlenum icq imap[s] irc ldap2[s] ldap3[-{cram|digest}md5][s] mssql mysql nntp oracle-listener oracle-sid pcanywhere pcnfs pop3[s] postgres rdp redis rexec rlogin rpcap rsh rtsp s7-300 sip smb smtp[s] smtp-enum snmp socks5 ssh sshkey teamspeak telnet[s] vmauthd vnc xmpp
+
+Используйте переменные среды HYDRA_PROXY_HTTP или HYDRA_PROXY для настройки прокси-сервера.
+Например. 
+ % export HYDRA_PROXY=socks5://l:p@127.0.0.1:9150 (or: socks4:// connect://)
+ % export HYDRA_PROXY=connect_and_socks_proxylist.txt  (up to 64 entries)
+ % export HYDRA_PROXY_HTTP=http://login:pass@proxy:8080
+ % export HYDRA_PROXY_HTTP=proxylist.txt  (up to 64 entries)
+
+Примеры:
+  hydra -l user -P passlist.txt ftp://192.168.0.1
+  hydra -L userlist.txt -p defaultpw imap://192.168.0.1/PLAIN
+  hydra -C defaults.txt -6 pop3s://[2001:db8::1]:143/TLS:DIGEST-MD5
+  hydra -l admin -p password ftp://[192.168.0.0/24]/
+  hydra -L logins.txt -P pws.txt -M targets.txt ssh

