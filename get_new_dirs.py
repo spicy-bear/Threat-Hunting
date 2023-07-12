@@ -17,6 +17,7 @@ print("#Censys Query#")
 
 interval = 900  # 15 minutes
 output = []
+processed_ips = set()
 
 def check_for_directory_listing():
     headers = {
@@ -48,8 +49,9 @@ def check_for_directory_listing():
     for hit in hits:
         ip = hit.get("ip", "")
         ports = [str(service.get("port", "")) for service in hit.get("services", [])]
-        if ip and ports:
-            print(f"IP: {ip}, Ports: {', '.join(ports)}")
+        if ip and ports and ip not in processed_ips:
+            output.append(f"IP: {ip}, Ports: {', '.join(ports)}")
+            processed_ips.add(ip)
           
     # Save output to file
     with open("output.txt", "a") as file:
