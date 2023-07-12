@@ -24,15 +24,16 @@ def check_for_directory_listing():
         "Authorization": f"Basic {base64.b64encode(f'{id}:{secret}'.encode()).decode()}"
     }
     params = {
-        "query": 'services.http.response.html="Directory listing for /"',
+        "query": 'services.http.response.html="Directory listing for /"AND "".ps1" OR "payload""',
         "page": 1,
         "per_page": 100,
         "flatten": True
     }
     #forcing with url params are being wonky
-    url = 'https://search.censys.io/api/v2/hosts/search?q=services.http.response.html_title%3D%22Directory%20listing%20for%20%2F%22%20AND%20%22.ps1%22&per_page=50&virtual_hosts=EXCLUDE'
+    #url = 'https://search.censys.io/api/v2/hosts/search?q=services.http.response.html_title%3D%22Directory%20listing%20for%20%2F%22%20AND%20%22.ps1%22&per_page=50&virtual_hosts=EXCLUDE'
+    #response = requests.get(url, headers=headers)
 
-    response = requests.get(url, headers=headers)
+    response = requests.get("https://search.censys.io/api/v2/hosts/search", headers=headers, params=params)
     data = response.json()
 
     #if you just want only ips
