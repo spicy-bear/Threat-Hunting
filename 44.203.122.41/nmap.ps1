@@ -1,0 +1,1 @@
+C:\Users\Dell\Favorites\nmap-7.92\nmap.exe -h

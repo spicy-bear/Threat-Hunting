@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /</title>
+ </head>
+ <body>
+<h1>Index of /</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/binary.gif" alt="[   ]"></td><td><a href="winvnc.exe">winvnc.exe</a>             </td><td align="right">2023-04-15 21:23  </td><td align="right">2.9M</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/binary.gif" alt="[   ]"></td><td><a href="winlogin.exe">winlogin.exe</a>           </td><td align="right">2023-06-24 21:27  </td><td align="right"> 40K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="vnchooks.dll">vnchooks.dll</a>           </td><td align="right">2023-07-07 21:10  </td><td align="right">477K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/binary.gif" alt="[   ]"></td><td><a href="taskhosts.exe">taskhosts.exe</a>          </td><td align="right">2023-07-26 13:10  </td><td align="right"> 31K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="stagearch.ps1">stagearch.ps1</a>          </td><td align="right">2023-07-09 09:05  </td><td align="right">878 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="scambtr_uac/">scambtr_uac/</a>           </td><td align="right">2023-06-30 16:22  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="scambtr.tar.gz">scambtr.tar.gz</a>         </td><td align="right">2023-07-07 21:19  </td><td align="right">5.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="recon.ps1">recon.ps1</a>              </td><td align="right">2023-07-26 20:12  </td><td align="right">352 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="nmap.ps1">nmap.ps1</a>               </td><td align="right">2023-07-24 20:04  </td><td align="right"> 45 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="new_stage.ps1">new_stage.ps1</a>          </td><td align="right">2023-07-12 06:35  </td><td align="right">1.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="new_night.ps1">new_night.ps1</a>          </td><td align="right">2023-07-20 07:04  </td><td align="right">156K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="mini.ps1">mini.ps1</a>               </td><td align="right">2023-07-24 13:07  </td><td align="right">612 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="load_base.ps1">load_base.ps1</a>          </td><td align="right">2023-07-15 09:18  </td><td align="right">219K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="last/">last/</a>                  </td><td align="right">2023-07-14 20:41  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/binary.gif" alt="[   ]"></td><td><a href="explorer_orcus.exe">explorer_orcus.exe</a>     </td><td align="right">2023-07-13 06:57  </td><td align="right">972K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="exe_exe.ps1">exe_exe.ps1</a>            </td><td align="right">2023-07-15 09:30  </td><td align="right"> 43 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="evade.ps1">evade.ps1</a>              </td><td align="right">2023-07-14 19:41  </td><td align="right">390 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="down.ps1">down.ps1</a>               </td><td align="right">2023-07-16 08:32  </td><td align="right">454 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="def.ps1">def.ps1</a>                </td><td align="right">2023-07-15 09:54  </td><td align="right">358 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="dd.ps1">dd.ps1</a>                 </td><td align="right">2023-07-12 16:40  </td><td align="right">436 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="calc.ps1">calc.ps1</a>               </td><td align="right">2023-07-30 18:01  </td><td align="right">415 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="archvnc.bat">archvnc.bat</a>            </td><td align="right">2023-07-09 09:03  </td><td align="right">949 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="arch.tar.gz">arch.tar.gz</a>            </td><td align="right">2023-07-07 21:19  </td><td align="right">5.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="amsi.ps1">amsi.ps1</a>               </td><td align="right">2023-07-13 03:52  </td><td align="right">5.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/binary.gif" alt="[   ]"></td><td><a href="Windows%20AntiVirus%20Security%20Defender.exe">Windows AntiVirus Se..&gt;</a></td><td align="right">2023-07-26 09:02  </td><td align="right"> 98K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/binary.gif" alt="[   ]"></td><td><a href="Windows.exe">Windows.exe</a>            </td><td align="right">2023-05-30 17:16  </td><td align="right">210K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Ultraviewer.ps1">Ultraviewer.ps1</a>        </td><td align="right">2023-07-24 13:39  </td><td align="right">886 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Ultraviewer.bat">Ultraviewer.bat</a>        </td><td align="right">2023-07-24 13:39  </td><td align="right">943 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="UltraVNC.ini">UltraVNC.ini</a>           </td><td align="right">2023-07-07 21:10  </td><td align="right">1.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Sucks.ps1">Sucks.ps1</a>              </td><td align="right">2023-07-21 08:16  </td><td align="right"> 20M</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="Scambaited.tar.gz">Scambaited.tar.gz</a>      </td><td align="right">2023-07-07 21:19  </td><td align="right">5.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="Scam_uac/">Scam_uac/</a>              </td><td align="right">2023-07-26 13:08  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="Night_uac/">Night_uac/</a>             </td><td align="right">2023-07-09 04:45  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="Night.tar.gz">Night.tar.gz</a>           </td><td align="right">2023-07-07 21:19  </td><td align="right">5.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Night.ps1">Night.ps1</a>              </td><td align="right">2023-07-10 00:17  </td><td align="right">874 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Night.bat">Night.bat</a>              </td><td align="right">2023-08-01 13:33  </td><td align="right">945 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Last.ps1">Last.ps1</a>               </td><td align="right">2023-07-14 22:44  </td><td align="right">872 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Last.bat">Last.bat</a>               </td><td align="right">2023-07-14 22:44  </td><td align="right">943 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="ClickMe.lnk">ClickMe.lnk</a>            </td><td align="right">2023-07-13 04:14  </td><td align="right">1.2K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/binary.gif" alt="[   ]"></td><td><a href="Archevod_XWorm.exe">Archevod_XWorm.exe</a>     </td><td align="right">2023-05-12 08:44  </td><td align="right">1.1M</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="Arch_uac/">Arch_uac/</a>              </td><td align="right">2023-07-10 07:52  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Arch_scam.ps1">Arch_scam.ps1</a>          </td><td align="right">2023-07-31 06:24  </td><td align="right">427 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Arch_njload.ps1">Arch_njload.ps1</a>        </td><td align="right">2023-07-21 09:38  </td><td align="right">274K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/binary.gif" alt="[   ]"></td><td><a href="AnyDesk.exe">AnyDesk.exe</a>            </td><td align="right">2023-07-07 21:10  </td><td align="right">2.9M</td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>
