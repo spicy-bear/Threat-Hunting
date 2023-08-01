@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /Night_uac</title>
+ </head>
+ <body>
+<h1>Index of /Night_uac</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/">Parent Directory</a>       </td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="uac.ps1">uac.ps1</a>                </td><td align="right">2023-06-30 03:45  </td><td align="right">8.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="amsi.ps1.bak">amsi.ps1.bak</a>           </td><td align="right">2023-07-03 08:49  </td><td align="right">1.6K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="amsi.ps1">amsi.ps1</a>               </td><td align="right">2023-07-12 06:05  </td><td align="right">1.5K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/p.gif" alt="[   ]"></td><td><a href="Uac_stage_gen.py">Uac_stage_gen.py</a>       </td><td align="right">2023-07-30 04:47  </td><td align="right">1.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Uac_main.ps1">Uac_main.ps1</a>           </td><td align="right">2023-07-31 05:44  </td><td align="right">881 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="Uac_stage.ps1">Uac_stage.ps1</a>          </td><td align="right">2023-08-01 16:02  </td><td align="right">675 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="down.ps1">down.ps1</a>               </td><td align="right">2023-07-15 19:24  </td><td align="right">277 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="command.ps1">command.ps1</a>            </td><td align="right">2023-08-01 16:02  </td><td align="right">130 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="payloads/">payloads/</a>              </td><td align="right">2023-08-01 16:02  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>

