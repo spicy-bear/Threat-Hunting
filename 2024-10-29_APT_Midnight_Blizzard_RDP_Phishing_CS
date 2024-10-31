@@ -1,0 +1,11 @@
+#https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/
+#FQL
+#Microsoft Defender
+#Initial Access
+#T1556.001 Phishing
+
+#repo=base_sensor cid="*"
+| in(#event_simpleName, values=["NetworkConnectIP4"])
+| in(ContextBaseFileName, values=["mstsc.exe"], ignoreCase=true)
+| ConnectionDirection = 1
+| groupBy(RemoteIP)
