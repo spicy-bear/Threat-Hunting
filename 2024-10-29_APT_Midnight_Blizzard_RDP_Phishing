@@ -1,0 +1,21 @@
+#https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/
+#KQL
+#Microsoft Defender
+#Initial Access
+#T1556.001 Phishing
+
+DeviceNetworkEvents
+| where Timestamp > ago(7d)
+  and ActionType == "ConnectionSuccess"
+  and InitiatingProcessFileName =~ "mstsc.exe"
+  and RemoteIPType == "Public"
+| project DeviceId, InitiatingProcessId, NetworkTimestamp = Timestamp
+| join kind=inner (
+    DeviceFileEvents
+    | where Timestamp > ago(7d)
+      and ActionType in ("FileCreated", "FileModified")
+      and InitiatingProcessFileName =~ "mstsc.exe"
+    | project DeviceId, InitiatingProcessId, FileTimestamp = Timestamp, FileName
+) on DeviceId, InitiatingProcessId
+| where FileTimestamp >= NetworkTimestamp and FileTimestamp <= NetworkTimestamp + 1h
+| project DeviceId, NetworkTimestamp, FileTimestamp, FileName, InitiatingProcessId
